@@ -28,7 +28,7 @@ My method for counting capillaries in images adheres to a two-stage process: pre
 - **Contour Analysis**: Each contour is analyzed for its geometrical properties. Ellipses are fitted to determine if a contour represents a capillary, based on its orientation and aspect ratio.
 - **Contour Proximity and Orientation**: I calculate the slope and distance between the centroids of adjacent contours. Contours that are proximal and share a similar diagonal orientation are considered part of the same capillary, to prevent overcounting.
 
-This method is meticulously outlined and demonstrated in the [NFC Capillaries -Sevillano .ipynb](/NFC Capillaries -Sevillano .ipynb) notebook, showcasing each step with corresponding code and visual outputs. Additionally, [NFC_Sevillano_KimberlyGrace_presentation.pdf](/NFC_Sevillano_KimberlyGrace_presentation.pdf) provide visual summaries and discussions of the methodology and its effectiveness.
+This method is meticulously outlined and demonstrated in the '[NFC Capillaries -Sevillano .ipynb](/NFC Capillaries -Sevillano .ipynb)' notebook, showcasing each step with corresponding code and visual outputs. Additionally, [NFC_Sevillano_KimberlyGrace_presentation.pdf](/NFC_Sevillano_KimberlyGrace_presentation.pdf) provide visual summaries and discussions of the methodology and its effectiveness.
 
 ## Objective
 
