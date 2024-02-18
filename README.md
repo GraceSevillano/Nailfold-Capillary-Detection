@@ -28,7 +28,7 @@ My method for counting capillaries in images adheres to a two-stage process: pre
 - **Contour Analysis**: Each contour is analyzed for its geometrical properties. Ellipses are fitted to determine if a contour represents a capillary, based on its orientation and aspect ratio.
 - **Contour Proximity and Orientation**: I calculate the slope and distance between the centroids of adjacent contours. Contours that are proximal and share a similar diagonal orientation are considered part of the same capillary, to prevent overcounting.
 
-This method is meticulously outlined and demonstrated in the [NFC Capillaries -Sevillano .ipynb](/NFC Capillaries -Sevillano .ipynb) notebook, showcasing each step with corresponding code and visual outputs. Additionally, `NFC_Sevillano_KimberlyGrace_presentation.pdf` provide visual summaries and discussions of the methodology and its effectiveness.
+This method is meticulously outlined and demonstrated in the [NFC Capillaries -Sevillano .ipynb](/NFC Capillaries -Sevillano .ipynb) notebook, showcasing each step with corresponding code and visual outputs. Additionally, [NFC_Sevillano_KimberlyGrace_presentation.pdf](/NFC_Sevillano_KimberlyGrace_presentation.pdf) provide visual summaries and discussions of the methodology and its effectiveness.
 
 ## Objective
 
@@ -36,19 +36,19 @@ The primary objective is to establish a non-ML/DL reliant methodology that is ro
 
 ## Results
 
-The outcomes of this method are thoroughly documented in the `Poster_NFC_Sevillano.pdf` , which contains a detailed account of the processes, results, and implications of the findings.
+The outcomes of this method are thoroughly documented in the [Poster_NFC_Sevillano.pdf](/Poster_NFC_Sevillano.pdf) , which contains a detailed account of the processes, results, and implications of the findings.
 
 ## Contents
 
-- `NFC Capillaries -Sevillano .ipynb`: A comprehensive Jupyter Notebook documenting the entire process of capillary detection and counting.
-- `Poster_NFC_Sevillano.pdf`: A summarizing poster providing an overview and key findings of the project.
-- `NFC_Sevillano_KimberlyGrace_presentation.pdf`: A detailed presentation of the project's methodology and outcomes.
+- [NFC Capillaries -Sevillano .ipynb](/NFC Capillaries -Sevillano .ipynb) : A comprehensive Jupyter Notebook documenting the entire process of capillary detection and counting.
+- [Poster_NFC_Sevillano.pdf](/Poster_NFC_Sevillano.pdf) : A summarizing poster providing an overview and key findings of the project.
+- [NFC_Sevillano_KimberlyGrace_presentation.pdf](/NFC_Sevillano_KimberlyGrace_presentation.pdf) : A detailed presentation of the project's methodology and outcomes.
 
 ## Usage
 
 The repository is structured to provide a clear understanding of the project's workflow:
-1. Start with the`Poster_NFC_Sevillano.pdf` and `NFC_Sevillano_KimberlyGrace_presentation.pdf` for a high-level synopsis and method explanation.
-2. Explore the `NFC Capillaries -Sevillano .ipynb` notebook for an in-depth look at the image processing techniques used and their implementation.
+1. Start with the [Poster_NFC_Sevillano.pdf](/Poster_NFC_Sevillano.pdf) and [NFC_Sevillano_KimberlyGrace_presentation.pdf](/NFC_Sevillano_KimberlyGrace_presentation.pdf) for a high-level synopsis and method explanation.
+2. Explore the [NFC Capillaries -Sevillano .ipynb](/NFC Capillaries -Sevillano .ipynb) notebook for an in-depth look at the image processing techniques used and their implementation.
 
 ## Contributions
 
