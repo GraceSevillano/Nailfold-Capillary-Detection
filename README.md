@@ -58,3 +58,4 @@ This work is a testament to the rigorous nature of the course and my dedication 
 ## Acknowledgements
 
 I extend my heartfelt thanks to the professor Stephanie Bricq for guiding this exploration and to my peers for their constructive critiques, which have been invaluable in refining my project.
+
