@@ -51,6 +51,14 @@ The repository is structured to provide a clear understanding of the project's w
 1. Start with the [Poster_NFC_Sevillano.pdf](/Poster_NFC_Sevillano.pdf) and [NFC_Sevillano_KimberlyGrace_presentation.pdf](/NFC_Sevillano_KimberlyGrace_presentation.pdf) for a high-level synopsis and method explanation.
 2. Explore the [NFC_Capillaries-Sevillano.ipynb](/NFC_Capillaries-Sevillano.ipynb) notebook for an in-depth look at the image processing techniques used and their implementation.
 
+## Viewing the Notebook
+
+Due to the large size of the [`NFC_Capillaries-Sevillano.ipynb`](/NFC_Capillaries-Sevillano.ipynb) notebook, it might not be directly viewable on GitHub. For a seamless viewing experience, please use the following nbviewer link:
+
+[`NFC_Capillaries-Sevillano.ipynb` on nbviewer](https://nbviewer.org/github/GraceSevillano/Nailfold-Capillary-Detection/blob/master/NFC_Capillaries-Sevillano.ipynb)
+
+This link provides a fully rendered version of the notebook, ensuring that all visualizations and code are displayed correctly.
+
 ## Contributions
 
 This work is a testament to the rigorous nature of the course and my dedication to the field of medical image analysis. All materials, including the code, poster, and presentation, are the result of my personal efforts and innovations in tackling the given challenge.
