@@ -26,7 +26,7 @@ My method for counting capillaries in images adheres to a two-stage process: pre
 - **ROI Detection**: Utilizing Gaussian blur smoothens the image, which is then followed by Canny edge detection to highlight edges. A Hough line transformation identifies the longest line, which guides the image rotation and ROI extraction.
 
 <p align="center">
-  <img src="https://github.com/GraceSevillano/Nailfold-Capillary-Detection/blob/master/capilares1.png" />
+  <img src="https://github.com/GraceSevillano/Nailfold-Capillary-Detection/blob/master/capilares1.png" width="700"/>
 </p>
 
 ### Processing Stage
