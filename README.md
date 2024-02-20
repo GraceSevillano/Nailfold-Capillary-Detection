@@ -42,7 +42,7 @@ My method for counting capillaries in images adheres to a two-stage process: pre
 - **Contour Proximity and Orientation**: I calculate the slope and distance between the centroids of adjacent contours. Contours that are proximal and share a similar diagonal orientation are considered part of the same capillary, to prevent overcounting.
 
 <p align="center">
-  <img src="https://github.com/GraceSevillano/Nailfold-Capillary-Detection/blob/master/capilares3.png" />
+  <img src="https://github.com/GraceSevillano/Nailfold-Capillary-Detection/blob/master/capilares3.png" width="700" />
 </p>
 
 This method is meticulously outlined and demonstrated in the [NFC_Capillaries-Sevillano.ipynb](/NFC_Capillaries-Sevillano.ipynb)
