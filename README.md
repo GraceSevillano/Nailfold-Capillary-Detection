@@ -25,13 +25,25 @@ My method for counting capillaries in images adheres to a two-stage process: pre
 - **Channel Selection**: Starting with a full-color image, I select the green channel, which is most indicative of capillary presence.
 - **ROI Detection**: Utilizing Gaussian blur smoothens the image, which is then followed by Canny edge detection to highlight edges. A Hough line transformation identifies the longest line, which guides the image rotation and ROI extraction.
 
+<p align="center">
+  <img src="https://github.com/GraceSevillano/Nailfold-Capillary-Detection/blob/master/capilares1.png" />
+</p>
+
 ### Processing Stage
 - **Image Enhancement**: To increase the visibility of capillaries, I employ histogram equalization and Contrast Limited Adaptive Histogram Equalization (CLAHE), adjusting the parameters to the image's luminance.
 - **Capillary Detection**: Morphological operations and thresholding techniques are applied to the enhanced image. I then identify contours, classify them as capillaries based on their tubular shape, and disregard any horizontal structures by fitting ellipses to the contours and examining the angle of the major axis.
 
+<p align="center">
+  <img src="https://github.com/GraceSevillano/Nailfold-Capillary-Detection/blob/master/capilares2.png" />
+</p>
+
 ### Analysis and Counting
 - **Contour Analysis**: Each contour is analyzed for its geometrical properties. Ellipses are fitted to determine if a contour represents a capillary, based on its orientation and aspect ratio.
 - **Contour Proximity and Orientation**: I calculate the slope and distance between the centroids of adjacent contours. Contours that are proximal and share a similar diagonal orientation are considered part of the same capillary, to prevent overcounting.
+
+<p align="center">
+  <img src="https://github.com/GraceSevillano/Nailfold-Capillary-Detection/blob/master/capilares3.png" />
+</p>
 
 This method is meticulously outlined and demonstrated in the [NFC_Capillaries-Sevillano.ipynb](/NFC_Capillaries-Sevillano.ipynb)
  notebook, showcasing each step with corresponding code and visual outputs. Additionally, [NFC_Sevillano_KimberlyGrace_presentation.pdf](/NFC_Sevillano_KimberlyGrace_presentation.pdf) provide visual summaries and discussions of the methodology and its effectiveness.
