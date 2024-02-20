@@ -12,6 +12,11 @@ The task was to develop a method that relies solely on image processing techniqu
 
 The dataset includes images from four distinct classes: two healthy individuals (N1 and N2) and two with disease (S1 and S2), making up a total of 30 images. The dataset's complexity is heightened due to varying conditions like illumination and rotation, which simulate real-world challenges in medical imaging.
 
+<p align="center">
+  <img src="https://github.com/GraceSevillano/Nailfold-Capillary-Detection/blob/master/data1.png" width="331.2" height="164.4"/>
+  <img src="https://github.com/GraceSevillano/Nailfold-Capillary-Detection/blob/master/data2.png" width="331.2" height="164.4" />
+</p>
+
 ## Methodology
 
 My method for counting capillaries in images adheres to a two-stage process: preprocessing and processing.
